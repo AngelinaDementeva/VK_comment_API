@@ -4,7 +4,7 @@
 $config = json_decode(file_get_contents(__DIR__ . '/../config.json'), true);
 
 // Параметры подключения к базе данных
-$host = $config['db']['host'];
+$host = $config['db']['localhost'];
 $dbname = $config['db']['name'];
 $user = $config['db']['user'];
 $password = $config['db']['password'];
